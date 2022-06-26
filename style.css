@@ -1,0 +1,54 @@
+:root{
+    --margin-top-20:20px;
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+main{
+    height: 100%;
+    width: 100%;
+}
+
+form{
+    margin-right: 10%;
+    margin-left: 10%;
+    margin-top: 50%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: rgb(215, 250, 215);
+}
+
+#passWord, #userName{
+    margin-top: var(--margin-top-20);
+
+}
+
+#title-form, #username{
+    font-weight: bold;
+    font-size: 20px;
+    margin-top:20px;
+}
+
+#avertissement{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: var(--margin-top-20);
+    font-weight: bold;
+    color: red;
+    font-size: 20px;
+}
+
+#passWord{
+    margin-bottom:20px;
+}
