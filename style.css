@@ -1,43 +1,61 @@
 :root{
     --margin-top-20:20px;
+    --margin-left-37:37px;
+    --main-color: white;
 }
-
+/*body*/
 body{
     height: 100vh;
     width: 100vw;
     margin: 0;
     padding: 0;
-    overflow-x: hidden;
+   overflow-x: hidden;
 }
+/*main*/
 
 main{
     height: 100%;
     width: 100%;
 }
 
+/* ---------FORMULAIRE-------------- */
+
 form{
-    margin-right: 10%;
-    margin-left: 10%;
-    margin-top: 50%;
+    margin-right: 20%;
+    margin-left: 20%;
+    margin-top: 5%;
     display: flex;
     justify-content: center;
     flex-direction: column;
-    align-items: center;
+    align-items: flex-start;
     border: 2px solid black;
     border-radius: 10px;
-    background-color: rgb(215, 250, 215);
+    background-color: rgb(25, 102, 112);
 }
+
+/*inputs*/
 
 #passWord, #userName{
     margin-top: var(--margin-top-20);
-
+    margin-left: var(--margin-left-37);
+   
 }
+
+/*labels*/
 
 #title-form, #username{
     font-weight: bold;
     font-size: 20px;
     margin-top:20px;
+    margin-left: var(--margin-left-37);
+    color: var(--main-color);
 }
+
+#passWord{
+    margin-bottom:20px;
+}
+
+/* span avertissement*/
 
 #avertissement{
     display: flex;
@@ -49,6 +67,19 @@ form{
     font-size: 20px;
 }
 
-#passWord{
-    margin-bottom:20px;
+/* titres, listes*/
+
+h2{
+    margin-left: var(--margin-left-37);
+    color: var(--main-color);
+}
+
+li{
+    list-style-type: none;
+    font-style: italic;
+    font-size: 18px;
+}
+
+h1{
+    text-align: center;
 }

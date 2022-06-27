@@ -9,11 +9,22 @@
 </head>
 <body>
     <main>
+        <h1>Veuillez entrez votre indentifiant et votre mot de passe</h1>
         <form>
             <label for="userName" id="username">UserName</label>
             <input type="text" name="userName" id="userName">
             <label for="passWord" id="title-form">Password</label>
             <input type="password" id="passWord" name="passWord"> 
+            <p>
+                <h2>Votre mot de passe doit comporter:</h2>
+                <ul class="list">
+                    <li id="li-maj">Au moins une lettre majuscule</li>
+                    <li id="li-min">Au moins une lettre minuscule</li>
+                    <li id="li-number">Au moins un chiffre</li>
+                    <li id="li-caracterSpecial">Au moins un caractére spécial</li>
+                    <li id="li-caractersTotal">Au moins 12 caractéres</li>
+                </ul>
+            </p>
         </form>  
         <span id="avertissement"></span>
     </main>    
